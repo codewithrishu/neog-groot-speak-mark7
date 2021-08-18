@@ -39,10 +39,3 @@ function fetchurl()
 btn.addEventListener('click', fetchurl) 
 
 
-
-
-
-
-
-
-//https://api.funtranslations.com/translate/groot.json
