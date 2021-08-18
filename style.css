@@ -1,0 +1,66 @@
+body{
+     
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', cursive;
+    color: var(--secondary-color);
+}
+
+:root {
+    --primary: #455E28;
+    --secondary-color:#9C9078;
+    --third-color:#5A7139;
+}
+
+nav{
+    background-color: var(--primary);
+    padding: 8px 0;
+    text-align: center;
+    margin: auto;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+main img{
+    max-width:100px;
+}
+#input-text{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+#output-text{
+     width: 80%;
+    margin: 2px auto;
+    font-size: 1.5rem;
+}
+#input-text{
+    height: 120px;
+
+}
+#output-text{
+    height: 80px;
+}
+
+#btn{
+    background-color:  #6A6045;
+    border: none;
+    padding: 1rem 2.5rem;
+    margin:10px auto;
+}
+
+main h2{
+    margin:10px auto;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--primary);
+  padding: .5rem;
+}
